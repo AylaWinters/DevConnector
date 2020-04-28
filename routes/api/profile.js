@@ -74,7 +74,7 @@ router.post(
       profileFields.skills = skills.split(",").map((skill) => skill.trim());
     }
 
-    // build socail object
+    // build social object
     profileFields.social = {};
     if (youtube) profileFields.social.youtube = youtube;
     if (twitter) profileFields.social.twitter = twitter;
